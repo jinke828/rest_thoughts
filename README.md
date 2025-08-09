@@ -19,12 +19,17 @@ We provide a step-by-step, very detailed instructions to run the scripts that re
 [Code Guide](https://github.com/jinke828/rest_thoughts/blob/main/Code%20guide_JK.pdf)
 
 The instructions cover code of these following steps:
-* **Step00**: preprocess the fMRI data downloaded from OpenNeuro [./code/a_preprocessing](https://github.com/jinke828/rest_thoughts/tree/main/code/a_preprocessing)
-* **Step01**: load the preprocessed fMRI data [step01_load_netts.m]()
-* **Step02**: calculate FC patterns for each trial [step02_calc_FC.ipynb]
-* **Step03**: representational similarity analysis [step03_FC-thoughts_RSA.ipynb]
-* **Step04**
-  - **a**: connectome-based modeling to predict thought dimensions [step04a_SVR_dimensions.ipynb]
-  - **b**: plot results from step04a [step04b_plot_SVR.R]
-  - **c**: predict imagery in the aphantasic twin [step04c_predict_aphantasia.ipynb]
-* 
+* Step00: preprocess the fMRI data downloaded from OpenNeuro [./code/a_preprocessing](https://github.com/jinke828/rest_thoughts/tree/main/code/a_preprocessing)
+* Step01: load the preprocessed fMRI data. [step01_load_netts.m](https://github.com/jinke828/rest_thoughts/blob/main/code/b_analysis/step01_load_netts.m)
+* Step02: calculate FC patterns for each trial. [step02_calc_FC.ipynb](https://github.com/jinke828/rest_thoughts/blob/main/code/b_analysis/step02_calc_FC.ipynb)
+* Step03: representational similarity analysis. [step03_FC-thoughts_RSA.ipynb](https://github.com/jinke828/rest_thoughts/blob/main/code/b_analysis/step03_FC-thoughts_RSA.ipynb)
+* Step04
+  - a: connectome-based modeling to predict thought dimensions. [step04a_SVR_dimensions.ipynb](https://github.com/jinke828/rest_thoughts/blob/main/code/b_analysis/step04a_SVR_dimensions.ipynb)
+  - b: plot results from step04a. [step04b_plot_SVR.R](https://github.com/jinke828/rest_thoughts/blob/main/code/b_analysis/step04b_plot_SVR.R)
+  - c: predict imagery in the aphantasic twin. [step04c_predict_aphantasia.ipynb](https://github.com/jinke828/rest_thoughts/blob/main/code/b_analysis/step04c_predict_aphantasia.ipynb)
+* step05: connectome-based modeling to classify thought topics. [step05_SVC_topics.ipynb](https://github.com/jinke828/rest_thoughts/blob/main/code/b_analysis/step05_SVC_topics.ipynb)
+* step06: generalizing the thought models to Human Connectome Project (HCP). [step06_crossdataset_prediction.ipynb](https://github.com/jinke828/rest_thoughts/blob/main/code/b_analysis/step06_crossdataset_prediction.ipynb)
+* step07
+  - a: relating predicted thoughts with behavioral measures suing CCA. [step07a_CCA_PC.m](https://github.com/jinke828/rest_thoughts/blob/main/code/b_analysis/step07a_CCA_PC.m)
+  - b: train null thoughts models. [step07b_CCA_null-models](https://github.com/jinke828/rest_thoughts/tree/main/code/b_analysis/step07b_CCA_null-models)
+  - c: compare findings between Ke and Smith. [step07c_compare_Ke-Smith.R](https://github.com/jinke828/rest_thoughts/blob/main/code/b_analysis/step07c_compare_Ke-Smith.R)
