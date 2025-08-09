@@ -1,7 +1,8 @@
 # Rest_thoughts
 
 **Jin Ke, Taylor A. Chamberlain, Hayoung Song, Anna Corriveau, Ziwei Zhang, Taysha Martinez, Laura Sams, Marvin M. Chun, Yuan Chang Leong, Monica D. Rosenberg. (2025). Ongoing thoughts at rest reflect functional brain organization and behavior. _bioRvix_**  
-       
+
+Correspondence to jin.ke@yale.edu and mdrosenberg@uchicago.edu
          
 **The Chicago Attentin ang Thoughts (CAT) Dataset**
 
@@ -9,3 +10,5 @@
 
 * The functional and structural MRI data will be publicly available on OpenNeuro when the paper gets published. Link: https://openneuro.org/datasets/ds006515
 * The behavioral ratings and annotated thought topics are available here: https://github.com/jinke828/rest_thoughts/tree/main/data/beh
+* The transcriptions of each individual’s spontaneous speech and its USE-semantic embeddings will not be open sourced due to privacy concerns.
+* Preprocessed fMRI and eyetracking are available open reasonable request.
