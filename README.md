@@ -4,6 +4,7 @@
        
          
 **The Chicago Attentin ang Thoughts (CAT) Dataset**
+
 60 participants performed up to four 10-minute runs of an annotated rest task as part of a two-session fMRI study that also collected movie-watching, continuous performance task, and post-scan memory and narrative engagement data. Each run of the annotated rest task had 8 trials. In each trial, participants rested for 30 seconds, verbally reported their ongoing thoughts during the preceding resting period for 10 seconds, and rated them on 9 dimensions on a 9-point scale. 
 
-Collected by our group, access upon request -- please email jin.ke@yale.edu
+Access to this dataset will be open when the paper gets published. OpenNeuro Link: https://openneuro.org/datasets/ds006515
