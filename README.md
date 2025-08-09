@@ -20,6 +20,8 @@ We provide a step-by-step, very detailed instructions to run the scripts that re
 
 The instructions cover code of these following steps:
 * Step00: preprocess the fMRI data downloaded from OpenNeuro [./code/a_preprocessing](https://github.com/jinke828/rest_thoughts/tree/main/code/a_preprocessing)
+
+Code for data analysis after preprocessing can be found here: [./code/b_analysis](https://github.com/jinke828/rest_thoughts/tree/main/code/b_analysis)
 * Step01: load the preprocessed fMRI data. [step01_load_netts.m](https://github.com/jinke828/rest_thoughts/blob/main/code/b_analysis/step01_load_netts.m)
 * Step02: calculate FC patterns for each trial. [step02_calc_FC.ipynb](https://github.com/jinke828/rest_thoughts/blob/main/code/b_analysis/step02_calc_FC.ipynb)
 * Step03: representational similarity analysis. [step03_FC-thoughts_RSA.ipynb](https://github.com/jinke828/rest_thoughts/blob/main/code/b_analysis/step03_FC-thoughts_RSA.ipynb)
