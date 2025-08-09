@@ -20,8 +20,11 @@ We provide a step-by-step, very detailed instructions to run the scripts that re
 
 The instructions cover code of these following steps:
 * **Step00**: preprocess the fMRI data downloaded from OpenNeuro [./code/a_preprocessing](https://github.com/jinke828/rest_thoughts/tree/main/code/a_preprocessing)
-* Step01: load the preprocessed fMRI data [step01_load_netts.m]()
-* Step02: calculate FC patterns for each trial [step02_calc_FC.ipynb]
-* Step03: representational similarity analysis [step03_FC-thoughts_RSA.ipynb]
-* Step04: connectome-based modeling to predict thought dimensions
- - (step4a)
+* **Step01**: load the preprocessed fMRI data [step01_load_netts.m]()
+* **Step02**: calculate FC patterns for each trial [step02_calc_FC.ipynb]
+* **Step03**: representational similarity analysis [step03_FC-thoughts_RSA.ipynb]
+* **Step04**
+  - **a**: connectome-based modeling to predict thought dimensions [step04a_SVR_dimensions.ipynb]
+  - **b**: plot results from step04a [step04b_plot_SVR.R]
+  - **c**: predict imagery in the aphantasic twin [step04c_predict_aphantasia.ipynb]
+* 
