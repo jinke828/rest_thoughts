@@ -35,3 +35,10 @@ Code for data analysis after preprocessing can be found here: [./code/b_analysis
   - a: relating predicted thoughts with behavioral measures suing CCA. [step07a_CCA_PC.m](https://github.com/jinke828/rest_thoughts/blob/main/code/b_analysis/step07a_CCA_PC.m)
   - b: train null thoughts models. [step07b_CCA_null-models](https://github.com/jinke828/rest_thoughts/tree/main/code/b_analysis/step07b_CCA_null-models)
   - c: compare findings between Ke and Smith. [step07c_compare_Ke-Smith.R](https://github.com/jinke828/rest_thoughts/blob/main/code/b_analysis/step07c_compare_Ke-Smith.R)
+
+**Results**
+We share the code output of the main neural findings here: [./results/](https://github.com/jinke828/rest_thoughts/tree/main/results)
+* representational similarity analysis (Fig.3a-b). [./results/RSA](https://github.com/jinke828/rest_thoughts/tree/main/results/RSA)
+* connectome-based modeling (Fig. 3c-d; Fig. S5). [./results/CPM](https://github.com/jinke828/rest_thoughts/tree/main/results/CPMs)
+* model-predicted thoughts in HCP. [./results/predicted](https://github.com/jinke828/rest_thoughts/tree/main/results/predicted)
+* canonical correlation analysis (Fig.5a-d; Fig. S6-8). [./results/CCA](https://github.com/jinke828/rest_thoughts/blob/main/results/CCA.zip)
