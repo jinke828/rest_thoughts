@@ -9,6 +9,12 @@ Correspondence to jin.ke@yale.edu and mdrosenberg@uchicago.edu
 60 participants performed up to four 10-minute runs of an annotated rest task as part of a two-session fMRI study that also collected movie-watching, continuous performance task, and post-scan memory and narrative engagement data. Each run of the annotated rest task had 8 trials. In each trial, participants rested for 30 seconds, verbally reported their ongoing thoughts during the preceding resting period for 10 seconds, and rated them on 9 dimensions on a 9-point scale. 
 
 * The functional and structural MRI data will be publicly available on OpenNeuro when the paper gets published. Link: https://openneuro.org/datasets/ds006515
-* The behavioral ratings and annotated thought topics are available here: https://github.com/jinke828/rest_thoughts/tree/main/data/beh
+* The associated behavioral data are available here: https://github.com/jinke828/rest_thoughts/tree/main/data/beh
 * The transcriptions of each individual’s spontaneous speech and its USE-semantic embeddings will not be open sourced due to privacy concerns.
 * Preprocessed fMRI and eyetracking data are available upon reasonable request.
+
+**Code**
+
+We offer a step-by-step instructions to run the scripts that replicate the key findings of this paper (i.e., brain decoding of ongoing thoughts): https://github.com/jinke828/rest_thoughts/blob/main/Code%20guide_JK.pdf
+The code includes the following steps:
+* Step00: 
