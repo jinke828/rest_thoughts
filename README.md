@@ -15,9 +15,13 @@ Correspondence to jin.ke@yale.edu and mdrosenberg@uchicago.edu
 
 **Code**
 
-We provide a step-by-step, detailed instructions to run the scripts that replicate the key findings of this paper (i.e., brain decoding of ongoing thoughts): 
+We provide a step-by-step, very detailed instructions to run the scripts that replicate the key findings of this paper (i.e., brain decoding of ongoing thoughts): 
 [Code Guide](https://github.com/jinke828/rest_thoughts/blob/main/Code%20guide_JK.pdf)
 
 The code includes the following steps:
-* Step00: preprocess the fMRI data downloaded from OpenNeuro. [./code/a_preprocessing](https://github.com/jinke828/rest_thoughts/tree/main/code/a_preprocessing)
-* 
+* **Step00**: preprocess the fMRI data downloaded from OpenNeuro [./code/a_preprocessing](https://github.com/jinke828/rest_thoughts/tree/main/code/a_preprocessing)
+* Step01: load the preprocessed fMRI data [step01_load_netts.m]()
+* Step02: calculate FC patterns for each trial [step02_calc_FC.ipynb]
+* Step03: representational similarity analysis [step03_FC-thoughts_RSA.ipynb]
+* Step04: connectome-based modeling to predict thought dimensions
+** (step4a)
