@@ -1,0 +1,111 @@
+
+type = string-attribute
+name = HISTORY_NOTE
+count = 687
+'[dustin@cuda.med.yale.internal: Thu Aug  1 13:48:30 2013] 3dresample -orient RPI -inset ./fconn_atlas_150_1mm.nii -prefix ./fconn_atlas_150_1mm_rpi.nii\n[dustin@cuda.med.yale.internal: Wed Oct 14 09:09:19 2015] 3dresample -orient RPI -inset shen_1mm_268_parcellation.nii -prefix shen_1mm_268_parcellation_new.nii\n[tchamberlain@midway2-login2.rcc.local: Mon Feb 28 09:07:31 2022] {AFNI_19.0.14:linux_centos_7_64} 3dresample -master ../../data/derivatives/for_ventricle_mask/sub-pilot001/ses-01/first_pass/pilot001.01.aNT.01.results/errts.pilot001.01.aNT.01.tproject+tlrc -prefix shen_3mm_3mm_3_75mm_268_parcellation_resampled_ava_master -inset shen_1mm_268_parcellation.nii.gz -rmode NN~
+
+type = string-attribute
+name = TYPESTRING
+count = 15
+'3DIM_HEAD_ANAT~
+
+type = string-attribute
+name = IDCODE_STRING
+count = 27
+'XYZ_2O5DKpTT6FP--oeJFfH7DQ~
+
+type = string-attribute
+name = IDCODE_DATE
+count = 25
+'Mon Feb 28 09:07:31 2022~
+
+type = integer-attribute
+name = SCENE_DATA
+count = 8
+ 2 11 0 -999 -999
+ -999 -999 -999
+
+type = string-attribute
+name = LABEL_1
+count = 5
+'zyxt~
+
+type = string-attribute
+name = LABEL_2
+count = 5
+'zyxt~
+
+type = string-attribute
+name = DATASET_NAME
+count = 5
+'zyxt~
+
+type = integer-attribute
+name = ORIENT_SPECIFIC
+count = 3
+ 1 2 4
+
+type  = float-attribute
+name  = ORIGIN
+count = 3
+             90          125.5            -72
+
+type  = float-attribute
+name  = DELTA
+count = 3
+           -2.5           -2.5            2.5
+
+type  = float-attribute
+name  = IJK_TO_DICOM
+count = 12
+           -2.5              0              0             90              0
+           -2.5              0          125.5              0              0
+            2.5            -72
+
+type  = float-attribute
+name  = IJK_TO_DICOM_REAL
+count = 12
+           -2.5              0              0             90              0
+           -2.5              0          125.5              0              0
+            2.5            -72
+
+type  = float-attribute
+name  = BRICK_STATS
+count = 2
+              0            268
+
+type = integer-attribute
+name = DATASET_RANK
+count = 8
+ 3 1 0 0 0
+ 0 0 0
+
+type = integer-attribute
+name = DATASET_DIMENSIONS
+count = 5
+ 73 87 73 0 0
+
+type = integer-attribute
+name = BRICK_TYPES
+count = 1
+ 3
+
+type  = float-attribute
+name  = BRICK_FLOAT_FACS
+count = 1
+              0
+
+type = string-attribute
+name = TEMPLATE_SPACE
+count = 5
+'TLRC~
+
+type = integer-attribute
+name = INT_CMAP
+count = 1
+ 0
+
+type = string-attribute
+name = BYTEORDER_STRING
+count = 10
+'LSB_FIRST~

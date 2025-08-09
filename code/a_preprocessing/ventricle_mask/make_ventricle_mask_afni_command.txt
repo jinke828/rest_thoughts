@@ -1,0 +1,34 @@
+############ Make MNI ventricle mask ############
+
+############################################################################################################
+## These lines are for creating `warped+tlrc`. You don't need to run them, just here for future reference.
+############################################################################################################
+module load afni/19.0
+
+# use for midway2, might be different on midwayr etc
+cp /software/afni-19.0-el7-x86_64//MNI_avg152T1+tlrc.* .
+
+
+3dcalc -a /software/afni-19.0-el7-x86_64/TT_desai_dd_mpm+tlrc -expr 'amongst(a,152,170)' -prefix tlrc_ventricle_template+tlrc
+
+3dWarp -tta2mni tlrc_ventricle_template+tlrc
+
+
+
+
+
+
+############################################################################################################
+## These lines are for creating the ventricle mask!
+## Change the results directory path, in the `resample` line, and run it, to create the ventricle mask
+############################################################################################################
+module load afni/19.0
+
+3dresample -master ../../data/derivatives/for_ventricle_mask/sub-08VR/ses-01/first_pass/08VR.01.rest.01.results/mask_CSF_resam+tlrc -inset warped+tlrc -prefix mni_ventricle_template_propofol_resample
+
+
+
+# for ava
+module load afni/19.0
+
+3dresample -master ../../data/derivatives/for_ventricle_mask/sub-pilot001/ses-01/first_pass/pilot001.01.aNT.01.results/mask_CSF_resam+tlrc.HEAD -inset warped+tlrc -prefix mni_ventricle_template_propofol_resample
