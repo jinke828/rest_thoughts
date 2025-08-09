@@ -24,4 +24,4 @@ The instructions cover code of these following steps:
 * Step02: calculate FC patterns for each trial [step02_calc_FC.ipynb]
 * Step03: representational similarity analysis [step03_FC-thoughts_RSA.ipynb]
 * Step04: connectome-based modeling to predict thought dimensions
-** (step4a)
+- (step4a)
