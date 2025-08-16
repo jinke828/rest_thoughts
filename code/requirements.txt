@@ -4,6 +4,7 @@ scipy
 seaborn
 matplotlib
 scikit-learn
+imbalanced-learn
 absl-py
-tensorflow==2.12
+tensorflow
 tensorflow-hub

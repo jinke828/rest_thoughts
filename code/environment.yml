@@ -1,4 +1,4 @@
-name: rest_thoughts
+name: rest_thoughts_env
 channels:
   - conda-forge
   - defaults
@@ -10,8 +10,9 @@ dependencies:
   - seaborn
   - matplotlib
   - scikit-learn
+  - imbalanced-learn
   - absl-py
-  - tensorflow=2.12  # can adjust depending on GPU/CPU and CUDA setup
+  - tensorflow
   - pip
   - pip:
       - tensorflow-hub
