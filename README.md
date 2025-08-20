@@ -1,6 +1,6 @@
 # Rest_thoughts
 
-**Jin Ke, Taylor A. Chamberlain, Hayoung Song, Anna Corriveau, Ziwei Zhang, Taysha Martinez, Laura Sams, Marvin M. Chun, Yuan Chang Leong, Monica D. Rosenberg. (2025). Ongoing thoughts at rest reflect functional brain organization and behavior. _bioRvix_**  
+**Jin Ke, Taylor A. Chamberlain, Hayoung Song, Anna Corriveau, Ziwei Zhang, Taysha Martinez, Laura Sams, Marvin M. Chun, Yuan Chang Leong, Monica D. Rosenberg. (2025). Ongoing thoughts at rest reflect functional brain organization and behavior. _bioRxiv_**  
 
 Correspondence to jin.ke@yale.edu and mdrosenberg@uchicago.edu.
 please feel free to reach out with questions or inquiries.
