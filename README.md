@@ -14,7 +14,7 @@ please feel free to reach out with questions or inquiries.
 * The transcriptions of each individual’s spontaneous speech and its USE-semantic embeddings will not be open sourced due to privacy concerns.
 * Preprocessed fMRI and eyetracking data are available upon reasonable request.
 
-**Code**
+**Code** Software's license: Apache License 2.0
 
 We provide a step-by-step, very detailed instructions to run the scripts that replicate the key findings of this paper (i.e., brain decoding of ongoing thoughts): 
 [Code Guide](https://github.com/jinke828/rest_thoughts/blob/main/Code%20guide_JK.pdf)
